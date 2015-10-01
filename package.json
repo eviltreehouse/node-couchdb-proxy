@@ -1,0 +1,15 @@
+{
+  "name": "node-couchdb-proxy",
+  "version": "1.0.0",
+  "description": "An instant CouchDB proxy w/ some basic protections against how hippie CouchDB is :P",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Corey Sharrah <corey@eviltreehouse.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.64.0"
+  }
+}
