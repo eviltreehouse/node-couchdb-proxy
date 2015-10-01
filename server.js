@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-var VERSION = "1.0.0";
+var VERSION = "1.0.1";
 
-var KEY = null; var KEY_PASS = null;
+var KEY = '__permit'; var KEY_PASS = 'q1w2e3';
 
 var cdbHost = process.argv[2];
 var cdbPort = process.argv[3];
@@ -10,7 +10,7 @@ var cdbProxyPort = process.argv[4];
 
 if (! cdbHost) cdbHost = '127.0.0.1';
 if (! cdbPort) cdbPort = 5984;
-if (! cdbProxyPort) cdbProxyPort = 5994;;
+if (! cdbProxyPort) cdbProxyPort = 5994;
 
 var http = require('http'),
  request = require('request'),
