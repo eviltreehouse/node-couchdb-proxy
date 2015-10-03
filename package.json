@@ -1,6 +1,6 @@
 {
   "name": "node-couchdb-proxy",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "An instant CouchDB proxy w/ some basic protections against how hippie CouchDB is :P",
   "main": "server.js",
   "scripts": {
